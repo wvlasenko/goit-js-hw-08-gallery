@@ -1,8 +1,7 @@
 import images from './gallery-items.js';
 
 const galleryContainer = document.querySelector('.js-gallery');
-
-let indexOfImage = -1;
+let indexOfImage = 0;
 
 function createGalleryItem(image) {
   const itemContainer = document.createElement('li');
